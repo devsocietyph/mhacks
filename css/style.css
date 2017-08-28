@@ -1,0 +1,41 @@
+#header{
+    position:fixed;
+    padding:2em;
+    z-index:999999999;
+    width:100%;
+    left:0;
+    box-sizing:border-box;
+    height:50px;
+}
+
+
+#header img{
+    height:100px;
+}
+
+#header .headerLinks a{
+    display:inline-block;
+    width:10%;
+    text-decoration:none;
+    font-family:"Rubik";
+    color:white;
+    text-align: center;
+}
+
+#landing h1{
+    display:inline;
+    background-image:url(../img/highlightPurple.png);
+    background-position:top;
+}
+
+#landing p{
+    font-size:18px;
+    line-height:32px;
+    color:white;
+    text-align: justify;
+}
+
+
+.entries h1{
+    background-image: none !important;
+}
