@@ -1,109 +1,244 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/style.css">
 
-        
-        <link href="https://fonts.googleapis.com/css?family=Karla:900,900i|Work+Sans:100,200,300,400,700,800,900|Rubik:300,400,500|Sahitya" rel="stylesheet">
-        
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
+		
+		<link href="https://fonts.googleapis.com/css?family=Karla:900,900i|Work+Sans:100,200,300,400,700,800,900|Rubik:300,400,500|Sahitya" rel="stylesheet">
+		
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+	<body>
 
-        <div id="navigation" class="navbar">
-            <span class="headerTitle"><a href="index.html">MENTAL HEALTH HACKS</a></span>
-            <div class="headerLinks">
-                <a href="winners.html">Winners</a>
-                <a href="entries.html">Entries</a> 
-                <a href="#">Stories</a>
-                <a href="resources.html">Resources</a>  
-                <a href="partners.html">Partners</a>  
-            </div>
-        </div>
-        
-        <div class="containerouter"></div>
-        <div class="container" style="">
-            <div id="landing" class="box entries" style="background-image:url(img/entriesimg.png);background-position:center;background-size:cover;background-attachment:fixed;height:600px;">
-            <div class="within">
-                <div class="contentCenter" style="width:80%;">
-                    <center><h1>Entries</h1></center>
-                    <center><p>View the collection of entries from Mental Health Hacks.</p></center>
-                    
-                    <center><table style="width:500px;">
-                        <tr>
-                            <td><h2>Entry Topics</h2> 
-                                <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> 
-                            </td>
-                        <td><h2>Entry Types</h2>
-                            henlo
-                            </td>
-                        </tr>
-                    </table></center>
-                    
-                </div>
-        
-            </div>
-            </div>
-        
-                <div id="workList" class="box" style="min-height:100%;background-image:url(img/entriesimg.png);background-position:center;background-size:cover;background-attachment:fixed;">
-            
-                <div class="contentCenter">
-                    
-                    <div class="entryContainer">
-                        <center>
-                            
-                    
-                    <a href="#"><div class="work">
-                        <h2>Work Title</h2><br />
-                        <img src="http://lorempixel.com/300/150/sports/1/Dummy-Text/" class="workPreview" />
-                        <p>Short description of the work</p>
-                        <strong>Submission Type</strong> <strong>Submission Topic</strong>
-                    </div></a>
-                            
-                    <a href="#"><div class="work">
-                        <h2>Work Title</h2><br />
-                        <img src="http://lorempixel.com/300/150/sports/1/Dummy-Text/" class="workPreview" />
-                        <p>Short description of the work</p>
-                        <strong>Submission Type</strong> <strong>Submission Topic</strong>
-                    </div></a>
-                            
-                    <a href="#"><div class="work">
-                        <h2>Work Title</h2><br />
-                        <img src="http://lorempixel.com/300/150/sports/1/Dummy-Text/" class="workPreview" />
-                        <p>Short description of the work</p>
-                        <strong>Submission Type</strong> <strong>Submission Topic</strong>
-                    </div></a>
-                            
-                    <a href="#"><div class="work">
-                        <h2>Work Title</h2><br />
-                        <img src="http://lorempixel.com/300/150/sports/1/Dummy-Text/" class="workPreview" />
-                        <p>Short description of the work</p>
-                        <strong>Submission Type</strong> <strong>Submission Topic</strong>
-                    </div></a>
-                    
-                    
-                        </center>
-                    </div>
-                </div>
-            
-            
-            </div>
-        
-        </div>
-        
-        
-        
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+		<div id="navigation" class="navbar">
+			<span class="headerTitle"><a href="index.html">MENTAL HEALTH HACKS</a></span>
+			<div class="headerLinks">
+				<a href="winners.html">Winners</a>
+				<a href="entries.html">Entries</a> 
+				<a href="#">Stories</a>
+				<a href="resources.html">Resources</a>  
+				<a href="partners.html">Partners</a>  
+			</div>
+		</div>
+		
+		<div class="containerouter"></div>
+		<div class="container" style="">
+			<div id="landing" class="box entries" style="background-image:url(img/entriesimg.png);background-position:center;background-size:cover;background-attachment:fixed;height:600px;">
+			<div class="within">
+				<div class="contentCenter" style="width:80%;">
+					<center><h1>Entries</h1></center>
+					<center><p>View the collection of entries from Mental Health Hacks.</p></center>
+					
+					<center><table style="width:500px;">
+						<tr>
+							<td><h2>Entry Topics</h2> 
+								<a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> <a onclick="filterEntry(type);"></a> 
+							</td>
+						<td><h2>Entry Types</h2>
+							henlo
+							</td>
+						</tr>
+					</table></center>
+					
+				</div>
+		
+			</div>
+			</div>
+		
+				<div id="workList" class="box" style="min-height:100%;background-image:url(img/entriesimg.png);background-position:center;background-size:cover;background-attachment:fixed;">
+			
+				<div class="contentCenter">
+					
+					<div class="entryContainer">
+						<center>
+							
+							<a href="entry/narsio.html"><div class="work">
+								<h2>Narsio</h2><br />
+								<img src="entry/narsio.png" class="workPreview" />
+								<p>Designed by BitScript Technologies of Xavier School, the application prototype showcases an innovative way of providing resources to people with narcissism in Narsio.</p>
+								<strong>Software (Prototype)</strong> <strong>Narcissism</strong>
+							</div></a>
+							
+							<a href="entry/thewillandtestamentofasheradams.html"><div class="work">
+								<h2>The Will and Testament of Asher Adams</h2><br />
+								<img src="entry/thewillandtestamentofasheradams.png" class="workPreview" />
+								<p>Written by Regina Mison, the Will and Testament of Asher Adams is a delve into the despondent hollow of the empty.</p>
+								<strong>Creative Writing</strong> <strong>Grief and Loss</strong>
+							</div></a>
 
-        <script src="js/main.js"></script>
-    </body>
+							<a href="entry/thesilenceofholdingon.html"><div class="work">
+								<h2>The Silence of Holding On</h2><br />
+								<img src="entry/thesilenceofholdingon.png" />
+								<p>Written and illustrated by Aleeza Kira Abinuman, "The Silsence of Holding On" is an hour after hour day experience of the feeling, of being a person with anxiety.</p>
+								<strong>Poem and Illustration</strong> <strong>Anxiety</strong>
+							</div></a>
+
+							<a href="entry/whenalone.html"><div class="work">
+								<h2>When Alone</h2><br />
+								<img src="entry/whenalone.png" />
+								<p>Master Siopao and Co. capture phobias in "When Alone," a cinematographic experience traveling to and through the sonder of lives in the ripple effect brought about by different fears.</p>
+								<strong>Film</strong> <strong>Phobias</strong>
+							</div></a>
+							
+							<a href="entry/believeinyourself.html"><div class="work">
+								<h2>Believe in Yourself</h2><br />
+								<img src="entry/believeinyourself.png" />
+								<p>In "Believe in Yourself," Ramon Virrey explores the pang of panic disorders in both mind and body, and the story of survival that comes with all hurt.</p>
+								<strong>Interactive Fiction</strong> <strong>Panic Disorders</strong>
+							</div></a>
+
+							<a href="entry/caughtbetween.html"><div class="work">
+								<h2>Caught Between</h2><br />
+								<img src="entry/caughtbetween.png" />
+								<p>"Caught Between" explores the turn of the future, of life, and of everything known in a poem about teenagers by Rocio Castillo.</p>
+								<strong>Creative Writing</strong> <strong>Teenagers</strong>
+							</div></a>
+
+							<a href="entry/sheneedshelp.html"><div class="work">
+								<h2>She Needs Help</h2><br />
+								<img src="entry/sheneedshelp.png" />
+								<p>A blend of art and photography, Jacqui Reyes portrays the healing, corruption, and wave of feelings in Scizophrenia through "She Needs Help."</p>
+								<strong>Gif</strong> <strong>Schizophrenia</strong>
+							</div></a>
+
+							<a href="entry/angerblinds.html"><div class="work">
+								<h2>Anger Blinds</h2><br />
+								<img src="entry/angerblinds.png" />
+								<p>Taken by Gem Tan, "Anger Blinds" is a raw photo that depicts the blinding effects of anger through color, emotion, etc.</p>
+								<strong>Photography</strong> <strong>Anger</strong>
+							</div></a>
+
+							<a href="entry/miraclecure.html"><div class="work">
+								<h2>Miracle Cure</h2><br />
+								<img src="entry/miraclecure.png" />
+								<p>"Miracle Cure" is a colorful artwork by Corinne Sison that depicts one's unique experience with the effects of medication.</p>
+								<strong>Illustration</strong> <strong>Medication</strong>
+							</div></a>
+
+							<a href="entry/goleave.html"><div class="work">
+								<h2>Go Leave</h2><br />
+								<img src="entry/goleave.png" />
+								<p>"Go Leave" is an original acoustic song written and sung by Hanna Padilla about the pain of being left behind by a loved one due to the other's mental illness.</p>
+								<strong>Lyric Video (original song)</strong> <strong>Relationships</strong>
+							</div></a>
+
+							<a href="entry/stressboard.html"><div class="work">
+								<h2>StressBoard</h2><br />
+								<img src="entry/stressboard.png" />
+								<p>Designed and coded by Sugar Cubs, "StressBoard" is a website for those who need help in coping with anger or stress.</p>
+								<strong>Website</strong> <strong>Anger</strong>
+							</div></a>
+
+							<a href="entry/lighthouse.html"><div class="work">
+								<h2>Lighthouse</h2><br />
+								<img src="entry/lighthouse.png" />
+								<p>"Lighthouse" is a website made by Bianca Aguilar for a hypothetical security software which scans a family's devices for underlying secrets.</p>
+								<strong>Website</strong> <strong>Family Issues</strong>
+							</div></a>
+
+							<a href="entry/qjielmariano.html"><div class="work">
+								<h2>Qjiel Mariano</h2><br />
+								<img src="entry/qjielmariano.png" />
+								<p>Qijel Mariano's mend of anger is shared in essay, illustration, and photography as he tells of story in different mediums.</p>
+								<strong>Essay, Illustration, and Photography</strong> <strong>Anger</strong>
+							</div></a>
+
+							<a href="entry/wildcard.html"><div class="work">
+								<h2>Wildcard</h2><br />
+								<img src="entry/wildcard.png" />
+								<p>"Wildcard" is an illustration on teenagers from Team Isinantabi minimally depicting the fragility in mind.</p>
+								<strong>Illustration</strong> <strong>Teenagers</strong>
+							</div></a>
+
+							<a href="entry/parasamandirigmangmilenyal.html"><div class="work">
+								<h2>Para sa mandirigmang milenyal</h2><br />
+								<img src="entry/parasamandirigmangmilenyal.png" />
+								<p>"Para sa mandirigmang milenyal" is an ode to teenagers by Kayla de Guzman, confessing of the soul and courage encapsulated in every adolescent despite the struggles of mind.</p>
+								<strong>Poem</strong> <strong>Teenagers</strong>
+							</div></a>
+
+							<a href="entry/meatball.html"><div class="work">
+								<h2>Meatball</h2><br />
+								<img src="entry/meatball.png" />
+								<p>An unfinished, light kick towards LGBT issues -- Canp Tram presents an interactive fiction in the realm of high school life.</p>
+								<strong>Interactive Fiction</strong> <strong>LGBT Issues</strong>
+							</div></a>
+
+							<a href="entry/youarewhatyoullbe.html"><div class="work">
+								<h2>You Are What You'll Be</h2><br />
+								<img src="entry/youarewhatyoullbe.png" />
+								<p>"You Are What You'll Be" is a collective of poetry from Team Better Days tackling different gender issues. From the gentleness of "warm like flowers in the summer" to the impetus of "I had not come out with the desire for Adam / and only Adam" -- words reap our very souls from these bodies.</p>
+								<strong>Poems</strong> <strong>Gender Issues</strong>
+							</div></a>
+
+							<a href="entry/bluedolphin.html"><div class="work">
+								<h2>Blue Dolphin</h2><br />
+								<img src="entry/bluedolphin.png" />
+								<p>The Blue Dolphin website is Mega Minds' solution to LGBT issues; this exploration towards a platform for the community to discuss, find resources, and seek help is a step forward to a more inclusive and accessible world.</p>
+								<strong>Website</strong> <strong>LGBT Issues</strong>
+							</div></a>
+
+							<a href="entry/bottomsup.html"><div class="work">
+								<h2>Bottoms Up!</h2><br />
+								<img src="entry/bottomsup.png" />
+								<p>Written and designed by BGL.Signal, "Bottoms Up" is an interactive fiction describing eye-opening fear and dual diagnosis through the eyes of one girl.</p>
+								<strong>Interactive Fiction</strong> <strong>Phobias</strong>
+							</div></a>
+
+							<a href="entry/neverendingwar.html"><div class="work">
+								<h2>Never-ending War</h2><br />
+								<img src="entry/neverendingwar.png" />
+								<p>Noleil's "Never-ending War" is a take on self-harm in soft melodic tunes, digging into self-harm in a confessional lull.</p>
+								<strong>Song</strong> <strong>Self-harm</strong>
+							</div></a>
+
+							<a href="entry/panic.html"><div class="work">
+								<h2>PANIC</h2><br />
+								<img src="entry/panic.png" />
+								<p>"PANIC" is a film by Felix Culpa that shows a variety of people undergoing the pressuring experience of a panic disorder.</p>
+								<strong>Video</strong> <strong>Panic Disorders</strong>
+							</div></a>
+
+							<a href="entry/invisibleburdens.html"><div class="work">
+								<h2>Invisible Burdens</h2><br />
+								<img src="entry/invisibleburdens.png" />
+								<p>In whimsical color, Isabella Hilario's light illustrations on adolescence and growth tell of the stories and pain behind coming-of-age and the rise of heart and spirit that comes in all inevitability in this video series.</p>
+								<strong>Animated Comic</strong> <strong>Adolescence</strong>
+							</div></a>
+
+							<a href="entry/invisibleburdens.html"><div class="work">
+								<h2>Invisible Burdens</h2><br />
+								<img src="entry/invisibleburdens.png" />
+								<p>In whimsical color, Isabella Hilario's light illustrations on adolescence and growth tell of the stories and pain behind coming-of-age and the rise of heart and spirit that comes in all inevitability in this video series.</p>
+								<strong>Animated Comic</strong> <strong>Adolescence</strong>
+							</div></a>
+
+
+
+
+
+						</center>
+					</div>
+				</div>
+			
+			
+			</div>
+		
+		</div>
+		
+		
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+
+		<script src="js/main.js"></script>
+	</body>
 </html>
