@@ -1,25 +1,103 @@
 #header{
     position:fixed;
-    padding:2em;
-    z-index:999999999;
+    top: 0;
+    right: 20px;
+    z-index:99;
+    padding:1em;
+    color:black;
+}
+
+#navigation{
+    position:fixed;
     width:100%;
-    left:0;
-    box-sizing:border-box;
-    height:50px;
+    margin:auto;
+    top: 0px;
+    left: 0px;
+    z-index:9999;
+    height:70px;
+    padding-top:1em;
+    z-index:999;
 }
 
-
-#header img{
-    height:100px;
+.headerLinks{
+    text-align: right;
+    right:0;
+    position: relative;
 }
 
-#header .headerLinks a{
+.headerLinks a{
+    margin-top:-.5em;
+    padding: 1em;
     display:inline-block;
-    width:10%;
-    text-decoration:none;
-    font-family:"Rubik";
-    color:white;
+    text-decoration: none;
     text-align: center;
+    font-size:14px;
+    margin-right:.75em;
+    font-family: "Rubik";
+    font-weight:500;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    border-bottom:1px solid #fff
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.headerLinks a:hover{
+    color: #514dd8;
+    text-shadow:0 0 10px #514dd8;
+}
+
+.headerTitle{
+    float:left;
+    font-size:16px;
+    font-family: "Rubik";
+    font-weight:800;
+    z-index:9999;
+    position:relative;
+}
+
+.headerTitle a{
+    display:block;
+    text-decoration: none;
+    margin-left:1em;
+    color: #1c1c1c;
+    line-height:10px;
+    padding:1em;
+    letter-spacing: 1px;
+    background-image: -webkit-linear-gradient(180deg,#515dd8,#5c3bae) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.center h1{
+    text-transform: uppercase;
+    letter-spacing:3px;
+    font-family: "Work Sans";
+    background-image: -webkit-linear-gradient(180deg,#515dd8,#5c3bae) !important;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+.intextNav a{
+    display:inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Rubik";
+    min-width: 100px;
+    font-weight:300;
+    padding:.5em;
+    border-bottom:2px solid #fff;
+}
+
+.emphLink{
+    color:white;
+    text-decoration: none;
+    border:2px solid #fff;
+    padding:.5em;
+    margin:1em;
+    font-family: "Rubik";
+    box-shadow:5px 5px #fff;
 }
 
 #landing h1{
@@ -31,11 +109,9 @@
 #landing p{
     font-size:18px;
     line-height:32px;
-    color:white;
+    color:black;
     text-align: justify;
-}
-
-
-.entries h1{
-    background-image: none !important;
+    font-family: "Work Sans";
+    color:white;
+    text-shadow:0 2px #2117a4;
 }
