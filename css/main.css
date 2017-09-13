@@ -142,10 +142,15 @@ body{
 
 .work{
     width:340px;
+    height:390px;
     padding:1em;
     margin:1em;
     float:left;
     border-bottom:1px solid #ccc;
+}
+
+.work:hover{
+    text-shadow:0 0 20px #fff;
 }
 
 .work h2{
@@ -156,6 +161,10 @@ body{
     color:white;
     border-bottom:1px solid;
     display:inline-block;
+}
+
+.work img{
+    max-width:100%;
 }
 
 .work p{
