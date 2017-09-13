@@ -110,10 +110,9 @@ body{
 /* Entries */
 
 .entryContainer{
+    margin:auto !important;
     width:850px;
-    margin:auto;
-    position: relative;
-    left:20px;
+    max-width:100%;
 }
 
 .entries h1{
@@ -139,13 +138,21 @@ body{
     text-decoration:underline;
 }
 
+.wrapper {
+    overflow: hidden;
+    clear:left;
+    text-align:center;
+    margin-bottom:2em;
+}
+
 
 .work{
-    width:340px;
+    max-width:100%;
+    vertical-align:top;
+    width:330px;
     height:390px;
     padding:1em;
-    margin:1em;
-    float:left;
+    display:inline-block;
     border-bottom:1px solid #ccc;
 }
 
@@ -158,6 +165,7 @@ body{
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing:1px;
+    font-size:18px;
     color:white;
     border-bottom:1px solid;
     display:inline-block;
