@@ -102,7 +102,7 @@ body{
 
 .contentCenter{
     margin:0 auto;
-    width:100%;
+    max-width:100%;
 }
 
 
@@ -111,7 +111,6 @@ body{
 
 .entryContainer{
     margin:auto !important;
-    width:850px;
     max-width:100%;
 }
 
@@ -152,6 +151,7 @@ body{
     width:330px;
     height:390px;
     padding:1em;
+    margin:0 1em 0 1em;
     display:inline-block;
     border-bottom:1px solid #ccc;
 }
