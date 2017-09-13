@@ -76,6 +76,21 @@ body{
     right:0;
 }
 
+.container p{
+    font-family:"Work Sans";
+    font-size:14px;
+    color:white;
+}
+
+.container h1{
+    font-family: "Work Sans";
+    font-weight: 300;
+    color:white;
+    text-align:center;
+    display:block;
+    text-decoration:underline;
+}
+
 .box{
     display:block;
     max-width:100%;
@@ -105,7 +120,64 @@ body{
     max-width:100%;
 }
 
+.contentCenter h3{
+    font-family:"Rubik";
+    color:white;
+    text-shadow:0 0 20px
+}
 
+.contentCenter p{
+    text-align: justify;
+    max-width:80%;
+}
+
+td, tr, table{
+    margin:1em;
+    max-width:700px;
+    padding:.5em;
+}
+
+/* Awards */
+.awardRecipients a{
+    display:inline-block;
+    min-width:200px;
+    max-width:40%;
+    color:white;
+    font-family:"Rubik";
+    text-decoration:none;
+    font-weight:800;
+    padding:.5em;
+    margin:.1em;
+    font-size:12px;
+    text-align: center;
+    -webkit-transition: all .4s linear;
+    transition: all .4s linear;
+}
+
+.awardRecipients a:hover{
+    color:magenta;
+}
+
+.awardRecipients h4{
+    font-family:"Sahitya";
+    text-align: center;
+    color:white;
+    margin:0;
+}
+
+.awardWrapper{
+    max-width:700px;
+}
+
+.awardLeft{
+    display:inline-block;
+    width:50%;
+}
+
+.awardRight{
+    display:inline-block;
+    width:40%;
+}
 
 /* Entries */
 
