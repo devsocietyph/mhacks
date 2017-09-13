@@ -1,0 +1,167 @@
+body{background:#fff;background-image: url(entrybg.png);overflow-x:hidden;}
+.container{margin-top:2em;}
+
+.containerouter{position:fixed;top:0;left:0;width:100%;height:100%;z-index:99;border-top:solid #515dd7 4em;border-bottom:solid #515dd7 4em;border-left:solid #515dd7 1em;border-right:solid #515dd7 1em;pointer-events: none;box-sizing: border-box;}
+
+#entryCover{
+    position:absolute;
+    width:100%;
+    margin-top:2em;
+}
+
+.entryTitle{
+    padding-top:3em;
+    width:80%;
+    max-width:750px;
+    margin: auto;
+    position:relative;
+}
+
+.entryTitle h1{
+    margin-top: .5em;
+    text-align: center;
+    color: #1C1C1C;
+    font-family: "Work Sans";
+    text-transform:uppercase;
+    font-weight:900;
+    letter-spacing:5px;
+}
+
+.entryTitle h3{
+    font-family: "Rubik";
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing:2px;
+    color:black;
+    font-weight:900;
+    text-align: center;
+}
+
+.entryBox{
+    position:relative;
+    width:750px;
+    background:#fff;
+    margin:auto;
+}
+
+.entryTags{
+    padding:.5em;
+    height:30px;
+    color: #1C1C1C;
+    letter-spacing:1px;
+}
+
+.tTopic{float:left;font-family:"Rubik";text-transform: uppercase;}
+
+.tType{float:right;font-family:"Rubik";text-transform: uppercase;}
+
+.entryPreview{
+    width:700x;
+    height:300px;
+}
+
+#entryInfo{
+    display:block;
+    position:relative;
+    top:420px;
+    width:90%;
+    margin: auto;
+    color:black;
+    max-width:1000px;
+}
+
+
+.entryAccessArea img{
+    max-width:100%;
+}
+.entryDescrip{
+    
+}
+
+.headerLinks a{color:white;}
+.headerLinks a:hover{text-shadow:0 0 15px #fff; color: #fff;}
+
+.entryheaderTitle{
+    float:left;
+    font-size:16px;
+    font-family: "Rubik";
+    font-weight:800;
+    z-index:9999;
+    position:relative;
+}
+.entryheaderTitle a{
+    display:block;
+    text-decoration: none;
+    margin-left:1em;
+    color: #fff;
+    line-height:10px;
+    padding:1em;
+    letter-spacing: 1px;
+}
+
+.entryDescrip h1{
+    font-family:"Rubik";
+    letter-spacing:1px;
+    color:black;
+    font-size:32px;
+    text-transform: uppercase;
+    text-align:center;
+    margin-top:1em;
+}
+
+.entryDescrip .smallDescrip{font-size:18px;margin:1em;}
+
+.entryDescrip p{
+    margin:.5em;
+    font-family:"Work Sans";
+    text-align: justify;
+    font-size:34px;
+    text-align: center;
+    color: #1C1C1C;
+}
+
+.entryNotes{
+    background: #fff;
+    padding:.5em;
+    margin: 1emm;
+    font-size: 16px !important;
+    max-width:500px;
+    border:1px solid #000;
+}
+
+.entryAwards{
+    width:100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding:.5em;
+    margin-top:3em;
+}
+.entryAwards h1, #entryAccess h1{
+    font-family: "Work Sans";
+    text-transform: uppercase;
+    font-size:12px;
+    letter-spacing:2px;
+    color: #1C1C1C;
+    font-weight:900;
+    text-align: center;
+}
+
+#entryAccess{
+    margin-top:3em;
+}
+
+.entryAccessArea a{
+    font-family: "Rubik";
+    color: #1C1C1C;
+    display:inline-block;
+    text-align: center;
+    margin:.5em;
+    font-weight:900;
+    font-size:48px;
+    text-decoration: none;
+    background-image:url(entryHighlight.png);
+}
+
+.entryAccessArea a:hover{
+    background-image:url(entryHighlighthover.png);
+}
