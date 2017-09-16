@@ -179,7 +179,19 @@ td, tr, table{
     width:40%;
 }
 
+/* Partners */
+
+#partners p{
+    max-width:650px;
+    font-size:17px;
+}
+
+.partnerlist img{
+    max-height:100px;
+}
+
 /* Entries */
+
 
 .entryContainer{
     margin:auto !important;
