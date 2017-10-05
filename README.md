@@ -1,2 +1,2 @@
-# mhacks
-oh boi oh boi
+# Mental Health Hacks Website
+Hi pows.
