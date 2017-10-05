@@ -102,7 +102,11 @@
 
 #landing h1{
     display:inline;
-    background-image:url(../img/highlightPurple.png);
+    font-family:"Work Sans";
+    font-weight:800;
+    text-decoration: none;
+    font-size:46px;
+    text-shadow:0 2px 0 #000;
     background-position:top;
 }
 
@@ -115,4 +119,16 @@
     font-family: "Work Sans";
     color:white;
     text-shadow:0 2px #2117a4;
+}
+
+
+/* Resource Materials */
+.resourceBox{
+    display:block;
+    width:80%;
+    text-align: center;
+}
+
+.resourceBox img{
+    max-width:300px;
 }
