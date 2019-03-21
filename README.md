@@ -1,2 +1,3 @@
 # Mental Health Hacks Website
-Hi pows.
+
+View the [MHacks 17 website](http://developh.org/mhacks)
